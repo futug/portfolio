@@ -1,0 +1,27 @@
+.header {
+  font-size: 21px;
+  padding: 20px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--light-color);
+  z-index: 999;
+
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    &-link {
+      font-size: 28px;
+    }
+
+  }
+
+
+}
