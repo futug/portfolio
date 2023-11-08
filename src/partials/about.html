@@ -69,5 +69,26 @@
       <p>Wordpress CMS</p>
     </div>
   </div>
-  <div class="about__game"></div>
+  <div class="about__game game">
+    <div class="game__wrapper">
+      <p>лови птицов, не врезайся в ящики, все будет хорошо.</p>
+      <button class="btn-reset hero__subtitle">START</button>
+      <p>ЗЫ: Прыгай на пробел</p>
+    </div>
+
+    <div class="game__content container">
+      <div class="game__pause">
+        ||
+      </div>
+      <p class="game__score">Score: <span>0</span></p>
+      <picture>
+        <source srcset="img/game_char.webp" type="image/webp">
+        <img loading="lazy" src="img/game_char.png" class="game__char" alt="">
+      </picture>
+      <picture>
+        <source srcset="img/game__villian.webp" type="image/webp">
+        <img loading="lazy" src="img/game__villian.png" class="game__villian" alt="">
+      </picture>
+    </div>
+  </div>
 </section>
